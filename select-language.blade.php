@@ -4,7 +4,7 @@
 	{{-- Language Selector --}}
 	<li class="nav-item dropdown lang-menu no-arrow open-on-hover">
 		<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" id="langDropdown">
-			<span> (язык) <i class="bi bi-globe2"></i></span> <!--  Добавили надпись язык -->
+			<span> {{ t('header_lang') }} <i class="bi bi-globe2"></i></span> <!--  Добавили надпись язык -->
 			<i class="bi bi-chevron-down"></i>
 		</a>
 		<ul id="langDropdownItems"
